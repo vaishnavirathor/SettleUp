@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
@@ -94,3 +94,50 @@ section{
 .parallax-home img#moon{
     mix-blend-mode: screen;
 }
+.about{
+    position: relative;
+}
+.about img{
+    position: absolute;
+    z-index: 1000;
+    object-fit: cover;
+    pointer-events: none;
+}
+.about img .about-waterfall{
+    position: absolute;
+    top: -95px;
+}
+.about .info-box{
+    position: absolute;
+    top:2%;
+    left:10%;
+    width:40%;
+    z-index: 1003;
+    background: #1d002c;
+}
+.about .info-box h2{
+    font-size: 2.5rem;
+}
+.about .info-box p{
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+}
+.btn{
+    background: #12f7ff;
+    color:#1d002c;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+    transition: all .3s ease;
+    border:2px solid #12f7ff;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+ */

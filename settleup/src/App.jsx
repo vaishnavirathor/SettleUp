@@ -1,11 +1,12 @@
-import Head from './components/Head'
+// import Head from './components/Head'
 import './App.css'
+import Nav from './components/Nav'
 
 function App() {
 
   return (
     <>
-     <Head/>
+     <Nav/>
     </>
   )
 }
