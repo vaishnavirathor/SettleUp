@@ -118,8 +118,32 @@ body{
     text-decoration: none;
     display: flex;
     margin-top: 30px;
+    cursor: pointer;
 }
+.section-services .sec
+{
+    display: flex;
+}
+.section-services .sec_1 , .sec_2
+{
+    cursor: pointer;
+  max-width: 360px;
+  -webkit-backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px); */
+  background-color: rgba(45, 45, 45, .4);
+  border-radius: 22px;
+  padding: 3rem;
+  color: white;
+  box-shadow: 0 0 1rem 0 rgb(20, 64, 43);
 
+  font-size: 2rem;
+  margin: 2rem;
+}
+.section-services .sec_1 p{
+    color: #070418;
+    cursor: pointer;
+}
+.section-services .sec_1 {
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,1);
 
-
-
+}
