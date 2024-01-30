@@ -46,12 +46,15 @@ function Nav() {
             </h2>
             <button className="btn">Add Members</button>
           </div>
-          <div className="hero-img">
+         
+          <div className="imgbox">
             <img src="/images/6381.jpg" />
           </div>
+          
+          
         </section>
       </main>
-      <section className="section-services">
+      {/* <section className="section-services">
         <div className="sec">
           <div className="sec_1" style={{ backgroundColor: "#cff4f7" }}>
             <p>
@@ -92,10 +95,73 @@ function Nav() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <div className="container">
+        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx"></div>
+          <div className="content">
+            <h2>Add Members</h2>
+            <p>SplitEase allows you to split bills equally among participants
+              with just a few taps.</p>
+              <button className="btn_1">Add Member</button>
+          </div>
+        </div>
+        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx"></div>
+          <div className="content">
+          <h2>Add Members</h2>
+            <p>SplitEase allows you to split bills equally among participants
+              with just a few taps.</p>
+              <button className="btn_1">Add Member</button>
+          </div>
+        </div>
+        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx"></div>
+          <div className="content">
+          <h2>Add Members</h2>
+            <p>SplitEase allows you to split bills equally among participants
+              with just a few taps.</p>
+              <button className="btn_1">Add Member</button>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx"></div>
+          <div className="content">
+            <h2>Add Members</h2>
+            <p>SplitEase allows you to split bills equally among participants
+              with just a few taps.</p>
+              <button className="btn_1">Add Member</button>
+
+          </div>
+        </div>
+        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx"></div>
+          <div className="content">
+          <h2>Add Members</h2>
+            <p>SplitEase allows you to split bills equally among participants
+              with just a few taps.</p>
+              <button className="btn_1">Add Member</button>
+
+          </div>
+        </div>
+        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx"></div>
+          <div className="content">
+          <h2>Add Members</h2>
+            <p>SplitEase allows you to split bills equally among participants
+              with just a few taps.</p>
+              <button className="btn_1">Add Member</button>
+          </div>
+        </div>
+      </div>
+ 
+ 
       <section className="section-add">
         <div className="hero">
-          <h2>Add members</h2>
+          
         </div>
       </section>
     </>
