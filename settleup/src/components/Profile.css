@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to bottom,#0f0c29,#302b63,#24243e);
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    display: grid;
+    place-items: center;
+    font-size: 0.9rem;
+    color: white;
+    background-size: cover;
+    border: none;
+    img:"img1.jpg";
+    /* background: transparent; */
+}
+
+ .pro_container {
+    width: 40rem;
+    margin: 20px auto;
+    padding: 20px;  
+    /* background-color:#2b1e1e;  */
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+       color: white;
+       border-radius: 2rem;
+       /* background: transparent; */
+}
+.pro_form-group{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.3rem;
+    /* display: flex; */
+    /* background: transparent; */
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+   color: white;
+   /* background: transparent; */
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+.pro_button {
+    /* background-color: hsl(205, 35%, 58%); Tomato Red color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+    font-size: 1.5rem;
+}
+.pro_button:hover {
+    background-color: #2e22221a;
+} 
+.section-hero .btn{
+    color: black;
+    background-color: rgb(202, 239, 69);
+    padding: 20px 32px 20px 48px;
+    border-radius: 36px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    margin-top: 30px;
+    cursor: pointer;
+}
+input{
+    background-color: #7e7d88;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.5); 
+    text-decoration: none;
+
+}
+#gender{
+    background-color: #7e7d88; 
+    box-shadow: 0 15px 15px rgba(0,0,0,0.5);
+    text-decoration: none;
+ 
+}
+.logo {
+    width: 3rem;
+    border-radius: 50%;
+}
+.pro_file
+{
+    display: flex;
+    gap: 3rem;
+    background: none;
+}

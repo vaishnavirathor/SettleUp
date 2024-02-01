@@ -5,7 +5,8 @@ function Nav() {
   return (
     <>
       <header className="header sticky">
-        <img className="logo" src="/images/logo.png" alt="Logo" />
+        <img className="logo_1" src="/images/set.png" alt="Logo" />
+        {/* <h1>SettleUp</h1> */}
         <nav className="navbar">
           <ul className="navbar-list">
             <li>
@@ -50,118 +51,84 @@ function Nav() {
           <div className="imgbox">
             <img src="/images/6381.jpg" />
           </div>
-          
-          
         </section>
       </main>
-      {/* <section className="section-services">
-        <div className="sec">
-          <div className="sec_1" style={{ backgroundColor: "#cff4f7" }}>
-            <p>
-              SplitEase allows you to split bills equally among participants
-              with just a few taps.
-            </p>
+      
+    <div className="container">
+      <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx">
+          <img src="/images/graph.jpg"/>
           </div>
-          <div className="sec_2" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-            <p>
-              SplitEase allows you to split bills equally among participants
-              with just a few taps.
-            </p>
-          </div>
-          <div className="sec_2" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-            <p>
-              SplitEase allows you to split bills equally among participants
-              with just a few taps.
-            </p>
-          </div>
-        </div>
-        <div className="sec">
-          <div className="sec_2" >
-            <p>
-              SplitEase allows you to split bills equally among participants
-              with just a few taps.
-            </p>
-          </div>
-          <div className="sec_2" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-            <p>
-              SplitEase allows you to split bills equally among participants
-              with just a few taps.
-            </p>
-          </div>
-          <div className="sec_2" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-            <p>
-              SplitEase allows you to split bills equally among participants
-              with just a few taps.
-            </p>
-          </div>
-        </div>
-      </section> */}
-
-      <div className="container">
-        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-          <div className="imgBx"></div>
           <div className="content">
             <h2>Add Members</h2>
             <p>SplitEase allows you to split bills equally among participants
               with just a few taps.</p>
-              <button className="btn_1">Add Member</button>
+              <button className="btn_1">Add Mumber</button>        
           </div>
         </div>
         <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-          <div className="imgBx"></div>
+          <div className="imgBx">
+          <img src="/images/netw.jpg"/>
+          </div>
           <div className="content">
           <h2>Add Members</h2>
             <p>SplitEase allows you to split bills equally among participants
               with just a few taps.</p>
-              <button className="btn_1">Add Member</button>
+              <button className="btn_1">Add Mumber</button>        
+
           </div>
         </div>
         <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-          <div className="imgBx"></div>
+          <div className="imgBx">
+          <img src="/images/trans.jpg"/>
+          </div>
           <div className="content">
           <h2>Add Members</h2>
             <p>SplitEase allows you to split bills equally among participants
               with just a few taps.</p>
-              <button className="btn_1">Add Member</button>
+              <button className="btn_1">Add Mumber</button>        
           </div>
         </div>
       </div>
       <div className="container">
-        <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-          <div className="imgBx"></div>
+      <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
+          <div className="imgBx">
+          <img src="/images/trip.jpg"/>
+          </div>
           <div className="content">
             <h2>Add Members</h2>
             <p>SplitEase allows you to split bills equally among participants
               with just a few taps.</p>
-              <button className="btn_1">Add Member</button>
-
+              <button className="btn_1">Add Mumber</button>        
           </div>
         </div>
         <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-          <div className="imgBx"></div>
+          <div className="imgBx">
+            <img src="/images/transaction.jpg"/>
+          </div>
           <div className="content">
           <h2>Add Members</h2>
             <p>SplitEase allows you to split bills equally among participants
               with just a few taps.</p>
-              <button className="btn_1">Add Member</button>
+              <button className="btn_1">Add Mumber</button>        
 
           </div>
         </div>
         <div className="card" style={{ backgroundColor: "rgba(45, 45, 45, .4) " }}>
-          <div className="imgBx"></div>
+          <div className="imgBx">
+          <img src="/images/new.jpg"/>
+          </div>
           <div className="content">
           <h2>Add Members</h2>
             <p>SplitEase allows you to split bills equally among participants
               with just a few taps.</p>
-              <button className="btn_1">Add Member</button>
+              <button className="btn_1">Add Mumber</button>        
           </div>
         </div>
       </div>
- 
- 
+
       <section className="section-add">
-        <div className="hero">
-          
+        <div className="hero">      
         </div>
       </section>
     </>

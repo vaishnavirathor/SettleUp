@@ -22,6 +22,7 @@ body{
 .header .logo{
     height: 3rem;
 }
+
 .navbar-list{
     display: flex;
     gap: 4.8rem;
@@ -101,13 +102,24 @@ body{
    padding-bottom: 0;
    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.7);
 }
-.imgbox img{
+/* .imgbox img{
    width: 40rem; 
-   border-radius: 50px;
+   border-radius: 5px;
    margin-left: 10rem;
+} */
+.logo_1{
+    /* border-radius: 4px; */
+    width: 7rem;     
+    height: 7rem;
+
 }
-
-
+.logo_1:hover{
+    top:-100px;
+    scale:0.8;
+}
+h1{
+    font-family: 'orbitron';
+}
 
 .section-hero .btn{
     color: black;
@@ -164,7 +176,7 @@ background-color:  #070418;
     align-items: center;
     flex-wrap: wrap;
     gap: 100px 50px;
-  
+    width: 100%;
     padding:100px 50px;
     background-color: #070418;
 }
@@ -177,32 +189,30 @@ background-color:  #070418;
    height: 300px;
    background: #fff;
    border-radius: 20px;
-   /* box-shadow: 0 35px 80px rgba(0,0,0,0.15); */
+   box-shadow: 0 35px 80px rgba(0,0,0,0.15);
  
    transition: 0.5s;
 }
-.container .card:hover{
-   
+.container .card:hover{ 
     height: 400px;
 }
  .container .card .imgBx {
     position:absolute;
-    top: 20px;
+    /* top: 20px; */
     width: 300px;
     height: 220px;
     background: #333;
     border-radius: 12px;
     overflow:hidden;
-    transition: 0.5s;
-    /* left: 20px; */
-     /* margin: 10px; */
+    transition: 0.8s;
+     margin-top: 30px;
 }
 .container .card:hover .imgBx
 {
     top:-100px;
-    scale:0.75;
+    scale:0.8;
 /* margin: -30px; */
-   /* box-shadow:0.15px 45px rgba(0,0,0,0.2); */
+/* box-shadow:0.15px 45px rgba(0,0,0,0.2); */
 }
 
 .container .card .imgBx img{
@@ -233,7 +243,7 @@ background-color:  #070418;
 .container .card .content h2 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: black;
+    color: white;
 }
 
 .container .card .content p{
@@ -243,15 +253,23 @@ background-color:  #070418;
 }
 
 .container .card .content .btn_1{
-   margin: 10px;
-   color: #070418;
-   padding: 10px;
+   position: relative; 
+   top:15px;
+   display: inline-block;
+   padding:12px 25px;
    background-color: rgb(202, 239, 69);
-
-   border-radius: 14px;
-   border: none;
+   color:black;
+   font-weight: 700; 
+   text-decoration: none;
+   border-radius: 2rem;
+   font-size: 2em;
 }
+
 .container .card .content .btn_1:hover{
     color:black;
-    font-size: 2em;
-} 
+    font-size: 2.5em;
+}
+.imgbox img{
+    width: 45rem;
+    margin-left: 4rem;
+}
